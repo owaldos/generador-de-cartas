@@ -1,9 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-.card{
-    width: 250px;
-    height:400px; 
-    border-radius: 15px;
-}
+/* .h{
+
+    height:1000px; 
+    
+} 
 
 .direction{
     transform:rotate(180deg);
@@ -12,5 +12,5 @@
     font-size: 50px;
 }
 .font-size{
-    font-size: 100px;
-}
+    font-size: 200px;
+} */

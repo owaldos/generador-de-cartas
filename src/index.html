@@ -18,26 +18,30 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
-    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container-fluid  bg-success w-100 vh-100">
+      <div class="row h-75">
+        <div
+          class="card shadow-lg mx-auto mt-5 "
+          style="width:350px; border-radius:15px"
+        >
+          <div class="row" style="height: 20%;">
+            <div class="title-card text-start fs-1"></div>
+          </div>
 
-        <div class="row">
-          <div class="card shadow-lg mx-auto mt-5 ">
-
-            <div class="row" style="height: 20%;">
-              <div class="title-card text-start size"></div>
+          <div class="row" style="height: 60%;">
+            <div
+              class="card-body d-flex justify-content-center align-items-center"
+            >
+              <h1 style="font-size:120px"></h1>
             </div>
-
-            <div class="row" style="height: 60%;">
-              <div class="card-body d-flex justify-content-center align-items-center">
-                <h1 class="font-size"></h1>
-              </div>
-            </div>
-            <div class="row" style="height: 20%;">
-              <div class="title-card text-end p-2  d-flex align-items-end justify-content-start size direction">
-            </div>
+          </div>
+          <div class="row" style="height: 20%;">
+            <div
+              class="title-card text-end p-2  d-flex align-items-start justify-content-start fs-1"
+              style="transform:rotate(180deg)"
+            ></div>
           </div>
         </div>
       </div>
@@ -45,7 +49,6 @@
       <div class="row">
         <button class="btn btn-warning w-25">Cambiar carta</button>
       </div>
-
     </div>
 
     <script src="./app.js"></script>
